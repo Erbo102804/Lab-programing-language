@@ -1,0 +1,41 @@
+body {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+}
+
+h1 {
+  font-size: 80px;
+  color: black;
+  margin-bottom: 40px;
+  transition: color 0.3s;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.reset {
+  background-color: white;
+}
